@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="at.wifiwien.megasuperpaint" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Mega Super Painter</name>
+    <description>
+        Das ist eine Test APP
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        WIFI JS Kurs
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+
+    <plugin name="cordova-plugin-device-orientation" source="npm" spec="~1.0.2" />
+
+    <platform name="android">
+        <icon src="www/icon.png" />
+    </platform>
+    <platform name="windows">
+        <icon height="150" platform="windows" src="www/icon.png" width="150" />
+    </platform>
+</widget>
